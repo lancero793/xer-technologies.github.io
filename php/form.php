@@ -1,5 +1,4 @@
 <?php
-    include_once('form_validate.php');
 if(isset($_POST['sends'])){
     if(!empty($_POST['fname']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['subject']) && !empty($_POST['message'])){
         $fullName = $_POST['fname'];
