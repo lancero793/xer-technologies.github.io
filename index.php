@@ -4,7 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="" content="">
-	<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
 	<!------------ Unicons Cdn ------------>
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 	<!------------ jQuery ------------>
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 	<!------------ Self Styles Css ------------>
-	<link rel="stylesheet" href="/css/styles.css" type="text/css" />
+	<link rel="stylesheet" href="./css/styles.css" type="text/css" />
 	<title>Portfolio</title>
 </head>
 <body>
@@ -76,9 +76,9 @@
 						</a>
 					</div>
 					<div class="home-image">
-						<svg class="home-blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-							<path d="M62.9,-51.9C75.6,-34.2,76,-8.4,70.1,15.4C64.2,39.1,51.9,60.7,34.2,68.1C16.5,75.4,-6.6,68.6,-28.7,58.4C-50.8,48.2,-71.8,34.7,-78.9,14.8C-86.1,-5.2,-79.4,-31.6,-63.9,-50C-48.4,-68.4,-24.2,-78.8,0.4,-79.1C25.1,-79.5,50.1,-69.7,62.9,-51.9Z" transform="translate(100 100)" />
-							<image class="blob-image" y="-20" x="35" xlink:href="/img/me.png" />
+						<svg class="home-blob" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" id="blobSvg">
+  							<path id="blob" d="M410,332Q344,414,246.5,419.5Q149,425,119.5,337.5Q90,250,117,158Q144,66,239,85.5Q334,105,405,177.5Q476,250,410,332Z" ></path>
+							  <image class="blob-image" y="150" x="150" xlink:href="./img/me.png" />
 						</svg>
 					</div>
 					<div class="home-data">
@@ -109,7 +109,7 @@
 			<h2 class="section-title">Sobre Mi</h2>
 			<span class="section-subtitle">Conoceme un poco</span>
 			<div class="about-container container grid">
-				<img class="about-image" src="/img/about.jpg" alt="" />
+				<img class="about-image" src="./img/about.jpg" alt="" />
 				<div class="about-data">
 					<p class="about-description">
 						vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuad
@@ -633,7 +633,7 @@
 		<div class="owl-carousel">
 			<!------------// Portfolio 1//------------>
 			<div class="portfolio-content grid">
-				<img class="portfolio-image" src="/img/portfolio1.jpg" alt="" />
+				<img class="portfolio-image" src="./img/portfolio1.jpg" alt="" />
 				<div class="portfolio-data">
 					<h3 class="portfolio-title">Decoraciones DMG</h3>
 					<p class="portfolio-description">
@@ -648,7 +648,7 @@
 
 			<!------------// Portfolio 2 //------------>
 			<div class="portfolio-content grid">
-				<img class="portfolio-image" src="/img/portfolio2.jpg" alt="" />
+				<img class="portfolio-image" src="./img/portfolio2.jpg" alt="" />
 				<div class="portfolio-data">
 					<h3 class="portfolio-title">Ecommerce Rueda Libre</h3>
 					<p class="portfolio-description">
@@ -663,7 +663,7 @@
 
 			<!------------// Portfolio 3 //------------>
 			<div class="portfolio-content grid">
-				<img class="portfolio-image" src="/img/portfolio3.jpg" alt="" />
+				<img class="portfolio-image" src="./img/portfolio3.jpg" alt="" />
 				<div class="portfolio-data">
 					<h3 class="portfolio-title">Sitio web moderno</h3>
 					<p class="portfolio-description">
@@ -691,7 +691,7 @@
 						<i class="uil uil-message project-icon btn-icon"></i>
 					</a>
 				</div>
-				<img class="project-image" src="/img/about.jpg" alt="" />
+				<img class="project-image" src="./img/about.jpg" alt="" />
 			</div>
 		</div>
 	</section>
@@ -709,7 +709,7 @@
 			<div class="testimonial-content">
 				<div class="testimonial-data">
 					<div class="testimonial-header">
-						<img class="testimonial-image" src="/img/client1.jpg" alt="" />
+						<img class="testimonial-image" src="./img/client1.jpg" alt="" />
 						<div>
 							<h3 class="testimonial-name">Manuel Fernando Guzmán</h3>
 							<span class="testimonial-enterprise">DMG - Decoraciones</span>
@@ -732,7 +732,7 @@
 			<div class="testimonial-content">
 				<div class="testimonial-data">
 					<div class="testimonial-header">
-						<img class="testimonial-image" src="/img/client2.jpg" alt="" />
+						<img class="testimonial-image" src="./img/client2.jpg" alt="" />
 						<div>
 							<h3 class="testimonial-name">Christina Rodríguez</h3>
 							<span class="testimonial-enterprise">Alma - Beauty Shop</span>
@@ -755,7 +755,7 @@
 			<div class="testimonial-content">
 				<div class="testimonial-data">
 					<div class="testimonial-header">
-						<img class="testimonial-image" src="/img/client3.jpg" alt="" />
+						<img class="testimonial-image" src="./img/client3.jpg" alt="" />
 						<div>
 							<h3 class="testimonial-name">Luis Celís</h3>
 							<span class="testimonial-enterprise">Suplifish - Acuicola</span>
@@ -815,7 +815,7 @@
 				</div>
 			</div>
 		</div>
-		<form class="contact-form grid" action="">
+		<form class="contact-form grid" method="post">
 			<div class="contact-inputs grid">
 				<div class="contact-content">
 					<label class="contact-label" for="fname">Nombre</label>
@@ -896,7 +896,7 @@
 <!------------// End Footer //------------>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!------------// Self Scripts //------------>
-<script src="/js/app.js" type="text/javascript"></script>
-<script src="/js/form_validate.js" type="text/javascript"></script>
+<script src="./js/app.js" type="text/javascript"></script>
+<script src="./js/form_validate.js" type="text/javascript"></script>
 </body>
 </html>

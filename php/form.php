@@ -15,7 +15,7 @@ if(isset($_POST['btn-send'])){
         $header .= "X-Mailer: PHP/" . phpversion();
         $mail = @mail($dest, $subject, $message, $header);
         if($mail){
-            // echo '<h1> Mensaje Enviado </h1>';
+             echo '<h1> Mensaje Enviado </h1>';
         }else{
             // echo '<h1> Mensaje No Enviado </h1>';
         }

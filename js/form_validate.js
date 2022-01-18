@@ -12,9 +12,9 @@ messageError = document.querySelector('.message-error');
 const btnSend = document.getElementById('btn-send');
 const validacion = [fullName, email, phone, subject, message];
 
-// formulario.onsubmit = (e)=>{
-//     e.preventDefault();
-// }
+formulario.onsubmit = (e)=>{
+    e.preventDefault();
+}
 function validateSubject(){
     subject.onkeyup = ()=>{
         let patter_name = /[^+\d]/g;
@@ -110,14 +110,14 @@ validateSubject();
 validateMessage();
 btnSend.addEventListener('click', ()=>{
     const xhr = new XMLHttpRequest();
-    xhr.open('POST', "/php/form.php", true);
+    xhr.open('POST', "./php/form.php", true);
     xhr.onload = ()=>{
         if(xhr.readyState === XMLHttpRequest.DONE){
             if(xhr.status == 200){
                 let data = xhr.response;
                 console.log(data);
                 cleanInputs();
-                location.href = "index.html";
+                location.href = "index.php";
             }else{
                 console.log('error')
             }
