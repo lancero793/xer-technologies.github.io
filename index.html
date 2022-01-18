@@ -4,6 +4,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="" content="">
+	<link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
 	<!------------ Unicons Cdn ------------>
 	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 	<!------------ jQuery ------------>
@@ -817,28 +818,38 @@
 		<form class="contact-form grid" action="">
 			<div class="contact-inputs grid">
 				<div class="contact-content">
-					<label class="contact-label" for="">Nombre</label>
-					<input class="contact-input" type="text" name="" id="" value="" />
+					<label class="contact-label" for="fname">Nombre</label>
+					<input class="contact-input" type="text" name="fname" id="fname" required="" />
 				</div>
+				<span class="name-error d-none">Error</span>
 				<div class="contact-content">
-					<label class="contact-label" for="">Email</label>
-					<input class="contact-input" type="email" name="" id="" value="" />
+					<label class="contact-label" for="emal">Email</label>
+					<input class="contact-input" type="email" name="email" id="email" required/>
 				</div>
+				<span class="email-error d-none">Error</span>
 			</div>
 			<div class="contact-content">
-				<label class="contact-label" for="">Asunto</label>
-				<input class="contact-input" type="text" name="" id="" value="" />
+				<label class="contact-label" for="phone">Teléfono</label>
+				<input class="contact-input" type="text" name="phone" id="phone" required />
 			</div>
+			<span class="phone-error d-none">Error</span>
 			<div class="contact-content">
-				<label class="contact-label" for="">Mensaje</label>
-				<textarea class="contact-input" name="" id="" rows="8" cols="0"></textarea>
+				<label class="contact-label" for="subject">Asunto</label>
+				<input class="contact-input" type="text" name="subject" id="subject" required />
 			</div>
+			<span class="subject-error d-none">Error</span>
+			<div class="contact-content">
+				<label class="contact-label" for="message">Mensaje</label>
+				<textarea class="contact-input" name="message" id="message" rows="8" cols="0" required=""></textarea>
+			</div>
+			<span class="message-error d-none">Error</span>
 			<div>
-				<a class="btn btn-flex" href="#">
+				<div class="btn btn-flex send-btn" id="btn-send">
 					Enviar Email
 					<i class="uil uil-message btn-icon"></i>
-				</a>
+				</div>
 			</div>
+			
 		</form>
 	</div>
 </section>
@@ -886,5 +897,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <!------------// Self Scripts //------------>
 <script src="/js/app.js" type="text/javascript"></script>
+<script src="/js/form_validate.js" type="text/javascript"></script>
 </body>
 </html>
