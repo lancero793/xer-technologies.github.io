@@ -87,7 +87,7 @@
 						<p class="home-description">
 							vehicula ipsum a arcu cursus vitae congue mauris rhoncus aenean vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus et malesuada
 						</p>
-						<a class="btn btn-flex" href="#">
+						<a class="btn btn-flex" href="#contact">
 							Contactame <i class="uil uil-message btn-icon"></i>
 						</a>
 					</div>

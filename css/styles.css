@@ -136,6 +136,7 @@ html{
 	font-size: var(--size-h3);
 	color: var(--title-color);
 	margin-right: 1.5rem;
+	transition: .3s;
 }
 .icon-toggle:hover{
 	color: var(--primary-color);
@@ -165,11 +166,15 @@ html{
 .nav-toggle{
 	color: var(--title-color);
 	font-weight: var(--font-medium);
+	transition: .3s;
 }
 
 .nav-toggle{
 	font-size: 1.1rem;
 	cursor: pointer;
+}
+.nav-toggle:hover{
+	color: var(--primary-color);
 }
 
 @media screen and (max-width: 767px){
@@ -271,7 +276,10 @@ html{
 }
 .btn-scroll{
 	color: var(--primary-color);
-	transition: .3s all;
+	transition: .3s transform ease-out;
+}
+.btn-scroll:hover{
+	transform: translateY(10px);
 }
 .mouse{
 	font-size: 2rem;
@@ -976,6 +984,7 @@ html{
 	}
 	.toggle-theme{
 		margin: 0;
+		transition: .3s;
 	}
 	.home-container{
 		row-gap: 5rem;
@@ -1100,3 +1109,35 @@ html{
 		grid-template-columns: repeat(2, 2fr);
 	}
 }
+
+
+
+/* ----------------------------------- Animation ------------------------------ */
+/* .animate-container{
+    position: relative;
+    min-height: 100vh !important;
+
+}
+.animate{
+    position: absolute;
+    border-radius: 3px;
+    background: burlywood;
+    animation: square 5s linear infinite;
+	z-index: 10000;
+}
+
+@keyframes square{
+    0%{
+        transform: scale(0) translateY(0) rotate(0);
+    }
+    10%{
+        opacity: 1;
+    }
+    90%{
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1) translateY(-1000px) rotate(360deg);
+        opacity: 0;
+    }
+} */

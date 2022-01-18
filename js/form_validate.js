@@ -116,8 +116,12 @@ btnSend.addEventListener('click', ()=>{
             if(xhr.status == 200){
                 let data = xhr.response;
                 console.log(data);
-                cleanInputs();
-                location.href = "index.php";
+                if (data === "Mensaje enviado") {
+                    cleanInputs();
+                    location.href = "index.php";
+                }else{
+                    return;
+                }
             }else{
                 console.log('error')
             }
