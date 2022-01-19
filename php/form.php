@@ -1,8 +1,8 @@
 <?php
 if(isset($_POST['btn-send'])){
     if(!empty($_POST['fname']) && !empty($_POST['email']) && !empty($_POST['phone']) && !empty($_POST['subject']) && !empty($_POST['message'])){
-        $fullName = $_POST['fname'];
         $dest = "guzmancarlosalberto754@gmail.com";
+        $fullName = $_POST['fname'];
         $email = $_POST['email'];
         $phone = $_POST['phone'];
         $subject = $_POST['subject'];

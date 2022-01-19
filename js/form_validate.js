@@ -1,4 +1,4 @@
-const formulario = document.getElementById('contact').querySelector('form');
+const formulario = document.getElementById('contact-form');
 const fullName = document.getElementById('fname');
 const email = document.getElementById('email');
 const phone = document.getElementById('phone');
@@ -12,9 +12,9 @@ messageError = document.querySelector('.message-error');
 const btnSend = document.getElementById('btn-send');
 const validacion = [fullName, email, phone, subject, message];
 
-formulario.onsubmit = (e)=>{
+/*formulario.onsubmit = (e)=>{
     e.preventDefault();
-}
+}*/
 function validateSubject(){
     subject.onkeyup = ()=>{
         let patter_name = /[^+\d]/g;
@@ -118,7 +118,7 @@ btnSend.addEventListener('click', ()=>{
                 console.log(data);
                 if (data === "Mensaje enviado") {
                     cleanInputs();
-                    location.href = "index.php";
+                    location.href = "index.html";
                 }else{
                     return;
                 }

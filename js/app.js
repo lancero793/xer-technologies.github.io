@@ -3,7 +3,7 @@ const toggleMenu = document.querySelector(".nav-toggle");
 const closeMenu = document.querySelector(".nav-close");
 const links = document.querySelectorAll(".links");
 
-const headerActive = document.querySelectorAll(".skill-arrow");
+const toggleSkill= document.querySelectorAll(".skill-header");
 const header = document.getElementById("header");
 
 toggleMenu.addEventListener("click", activeMenu);
@@ -24,7 +24,7 @@ function addActiveLink(){
 	navBar.classList.toggle("active");
 }
 
-headerActive.forEach(active=> {
+toggleSkill.forEach(active=> {
 	active.addEventListener("click", (e)=>{
 		activeSkill(e);
 	});
@@ -32,28 +32,13 @@ headerActive.forEach(active=> {
 
 
 function activeSkill(e){
-	headerActive.forEach(active=>{
+	toggleSkill.forEach(active=>{
 		let target = e.target;
 		let parent = target.parentElement.parentElement;
 		parent.classList.toggle("close");
 		target.classList.toggle("skill-active");
 	});
 }
-
-
-/*function activeSkill(){
-	let itemClass = this.parentNode.className;
-	for(let i =0; i < skillsContent.length; i++){
-		skillsContent[i].className = "skill-content open";
-		if(itemClass === "skill-content close"){
-			this.parentNode.className = "skill-content open";
-		}
-	}
-}
-
-
-
-skillHeader.forEach(element=> element.addEventListener("click", activeSkill));*/
 
 const tabs = document.querySelectorAll("[data-target]")
 const tabsContent = document.querySelectorAll("[data-content]");

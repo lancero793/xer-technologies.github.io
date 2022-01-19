@@ -99,7 +99,9 @@ html{
 	scroll-behavior: smooth;
 }
 .send-btn{
+	border: none;
 	cursor: pointer;
+	outline: none;
 }
 .section{
 	padding: 2rem 0 4rem;
@@ -252,7 +254,7 @@ html{
 	fill: var(--primary-color);
 }
 .blob-image{
-	width: 170px;
+	width: 250px;
 	border-radius: 50%;
 }
 .home-data{
@@ -535,7 +537,7 @@ html{
 	transition: .3s;
 }
 .services-content:hover{
-	box-shadow: 4px 8px rgba(0, 0, 0, 0.15);
+	box-shadow: 3px 6px rgba(0, 0, 0, 0.10);
 }
 .service-icon{
 	font-size: 1.5rem;
@@ -800,7 +802,7 @@ html{
 	background: var(--color-lighter) !important;
 	border-radius: .25rem;
 	outline: none;
-	margin: 0 0.1875re;
+	margin: 0 0.1875rem;
 }
 .owl-dot:hover,
 .owl-dot.active{
