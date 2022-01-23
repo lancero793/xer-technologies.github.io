@@ -12,9 +12,9 @@ messageError = document.querySelector('.message-error');
 const btnSend = document.getElementById('btn-send');
 const validacion = [fullName, email, phone, subject, message];
 
-formulario.onsubmit = (e)=>{
+/*formulario.onsubmit = (e)=>{
     e.preventDefault();
-}
+}*/
 function validateSubject(){
     subject.onkeyup = ()=>{
         let patter_name = /[^+\d]/g;
